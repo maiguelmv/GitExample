@@ -4,6 +4,8 @@
  */
 package main;
 
+import core.Person;
+
 /**
  *
  * @author Autologon
@@ -11,7 +13,8 @@ package main;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Hello world!!");
+       Person person = new Person (200205985, "Manuela Maiguel", 19);
+        System.out.println(person);
     }
     
 }
